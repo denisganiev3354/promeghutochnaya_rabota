@@ -9,8 +9,9 @@ class Note(object):
     @property
     def title(self):
         return self._title
+
     @title.setter
-    def title (self,title):
+    def title(self, title):
         self._title = title
 
     @property
@@ -20,19 +21,19 @@ class Note(object):
     @text.setter
     def text(self, text):
         self._text = text
-    
+
     @property
     def note_id(self):
         return self._note_id
-    
+
     @note_id.setter
     def note_id(self, note_id):
-        self._note_id = note_id  
+        self._note_id = note_id
 
     @property
     def date(self):
-        return self._data
-    
+        return self._date
+
     @date.setter
     def date(self, date):
         self._date = date
